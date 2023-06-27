@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path=":id" element={<ProjectDetails />} />
+				<Route path="login" element={<LoginPage />} />
 			</Routes>
 		</div>
 	);

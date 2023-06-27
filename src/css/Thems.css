@@ -21,3 +21,18 @@
 	-webkit-background-clip: text;
 	color: transparent;
 }
+
+/* home page */
+
+.home-page {
+	height: calc(100vh - 54px);
+}
+
+.color-background {
+	background-color: #ee3043;
+	opacity: 0.7;
+}
+
+.color-background .card {
+	opacity: 0.5;
+}
