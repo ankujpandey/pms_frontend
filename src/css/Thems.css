@@ -1,0 +1,23 @@
+/* ---------------------------------
+    for no data Available
+------------------------------------*/
+
+.no-data {
+	color: #ee3043;
+}
+
+/* header */
+
+/* .header-name {
+	background-color: aliceblue;
+} */
+
+.header-name h1 {
+	font-size: x-large;
+	font-weight: 900;
+	background-image: url("../assets/We-do-textures-etch-1.png");
+	background-clip: text;
+	background-size: 100% 100%;
+	-webkit-background-clip: text;
+	color: transparent;
+}
